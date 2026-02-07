@@ -2,3 +2,9 @@
     background-color: rgb(168, 168, 124);
     height: 100%;
 }
+
+  h2 {
+    --pico-font-family: Pacifico, cursive;
+    --pico-font-weight: 400;
+    --pico-typography-spacing-vertical: 0.5rem;
+  }
