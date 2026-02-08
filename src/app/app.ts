@@ -6,10 +6,11 @@ import { OrderOfService } from "./order-of-service/order-of-service";
 import { Tributes } from "./tributes/tributes";
 import { Hymns } from "./hymns/hymns";
 import { Gallery } from "./gallery/gallery";
+import { OfficiatingMinisters } from "./officiating-ministers/officiating-ministers";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navigation, FrontBanner, OrderOfService, Tributes, Hymns, Gallery],
+  imports: [RouterOutlet, Navigation, FrontBanner, OrderOfService, Tributes, Hymns, Gallery, OfficiatingMinisters],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

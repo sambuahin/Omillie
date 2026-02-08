@@ -2,3 +2,9 @@
 @import "tailwindcss";
 
 body{font-family: "Open Sans", Arial, sans-serif;color:#222;background:#F7F4EE;margin:0}
+
+  h2 {
+    --pico-font-family: Pacifico, cursive;
+    --pico-font-weight: 400;
+    --pico-typography-spacing-vertical: 0.5rem;
+  }
