@@ -7,10 +7,21 @@ import { Tributes } from "./tributes/tributes";
 import { Hymns } from "./hymns/hymns";
 import { Gallery } from "./gallery/gallery";
 import { OfficiatingMinisters } from "./officiating-ministers/officiating-ministers";
+import { Biography } from './biography/biography';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Navigation, FrontBanner, OrderOfService, Tributes, Hymns, Gallery, OfficiatingMinisters],
+  imports: [
+    RouterOutlet,
+    Navigation,
+    FrontBanner,
+    OrderOfService,
+    Tributes,
+    Hymns,
+    Gallery,
+    OfficiatingMinisters,
+    Biography
+  ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
